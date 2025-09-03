@@ -2,9 +2,7 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/_sSTzz13tVY" target="_blank">
     <img src="https://github.com/machadop1407/social-media-vite-supabase/blob/main/public/thumb.png" alt="Project Banner">
-  </a>
   <br />
   <div>
     <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -14,10 +12,6 @@
     <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   </div>
   <h3 align="center">Build a Modern Social Media Website</h3>
-  <div align="center">
-    Follow along with our detailed tutorial on 
-    <a href="https://youtu.be/_sSTzz13tVY" target="_blank"><b>YouTube</b></a>
-  </div>
   <br />
 </div>
 
@@ -30,11 +24,6 @@
 5. [Code Snippets](#code-snippets)
 6. [Assets & More](#assets--more)
 
-## 🚀 Introduction
-
-In this video tutorial, you'll learn how to build a fully featured community forum and Q&amp;A site using modern web technologies. We’ll cover everything from real-time interactions and GitHub authentication to stunning glassy UI elements with glowing gradient effects. This project is perfect for developers who want to dive into building dynamic, interactive, and beautifully designed web applications.
-
-Watch the tutorial on [YouTube](https://youtu.be/_sSTzz13tVY).
 
 ## ⚙️ Tech Stack
 
@@ -80,7 +69,8 @@ Watch the tutorial on [YouTube](https://youtu.be/_sSTzz13tVY).
 Run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/machadop1407/social-media-vite-supabase.git
+
+git clone https://github.com/sheikhawab/chitchat.git
 cd social-media-tutorial
 ```
 
@@ -105,11 +95,11 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 
 Start the development server:
 
-```bash
+```gitbash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 🕸️ Code Snippets
 
@@ -155,88 +145,10 @@ FOR DELETE
 USING (auth.uid()::text = user_id);
 ```
 
-## 🎨 Assets & More
-
-- **Tutorial Video:**  
-  [Watch on YouTube](https://youtu.be/_sSTzz13tVY)
-
-- **Design Inspiration & Assets:**  
-  Explore additional assets and design inspirations [here](https://drive.google.com/file/d/your-assets-link).
-
 ## 🚀 More
 
 If you enjoyed this tutorial, check out our other projects and advanced courses to further improve your development skills.
 
 ---
 
-Happy coding and thanks for watching!
-extra setup
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Happy coding !
