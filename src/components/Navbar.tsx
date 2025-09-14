@@ -152,7 +152,8 @@ export const Navbar = () => {
                 {/* <button onClick={signOut} className="bg-red-500 px-3 py-1 rounded">
                   Sign Out
                 </button> */}
-                <button className="bg-red-500 text-white px-2 py-1 rounded w-20">
+                <button className="bg-red-500 text-white px-2 py-1 rounded w-20"
+                onClick={signOut}>
                  Sign Out
                 </button>
               </div>
